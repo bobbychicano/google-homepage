@@ -8,6 +8,7 @@
 
 .body {
   height: 100%;
+  font-family: arial, sans-serif;
 }
 
 .homepage {
@@ -37,9 +38,28 @@
 }
 
 .search-buttons button {
-  margin: 5px;
+  margin: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: #5F6368;
+  line-height: 27px;
+  height: 36px;
+  cursor: pointer;
+  font-family: arial, sans-serif;
 }
 
-.extra > a {
+.extra a {
   text-decoration: none;
+  color: #1a0dab;
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
+.extra a:hover {
+  text-decoration: underline;
 }
