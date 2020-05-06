@@ -1,0 +1,45 @@
+/* written by bobbychicano */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: 100%;
+}
+
+.homepage {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.search-bar {
+  margin: 20px 0px;
+}
+
+.search-bar input {
+  width: 400px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  border-radius: 50px;
+  border-width: thin;
+}
+
+.search-buttons {
+  margin-bottom:10px;
+}
+
+.search-buttons button {
+  margin: 5px;
+}
+
+.extra > a {
+  text-decoration: none;
+}
