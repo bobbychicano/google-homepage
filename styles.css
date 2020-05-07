@@ -25,20 +25,29 @@
 }
 
 .search-bar input {
-  width: 400px;
-  height: 34px;
+  width: 480px;
+  height: 44px;
   line-height: 34px;
   font-size: 16px;
-  border-radius: 50px;
-  border-width: thin;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  background: #fff;
+  padding: 0px 16px 0px 22px;
+}
+
+.search-bar input:focus {
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
 }
 
 .search-buttons {
-  margin-bottom:10px;
+  margin: 9px 0px 20px 0px;
 }
 
 .search-buttons button {
-  margin: 4px;
+  margin: 0px 4px;
   font-family: inherit;
   font-size: 14px;
   padding: 5px 15px;
