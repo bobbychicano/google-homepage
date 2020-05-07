@@ -33,7 +33,6 @@ nav a:hover {
   width: 100px;
   display: flex;
   justify-content: space-around;
-  margin
 }
 
 .right {
@@ -93,6 +92,11 @@ nav a:hover {
   font-family: arial, sans-serif;
 }
 
+.search-buttons button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  border: 1px solid #c6c6c6;
+}
+
 .extra a {
   text-decoration: none;
   color: #1a0dab;
@@ -101,5 +105,42 @@ nav a:hover {
 }
 
 .extra a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.75;
+}
+
+.left-2 {
+  display: flex;
+  margin: 10px 0px 0px 20px;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.right-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 0px 0px;
+  width: 170px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
   text-decoration: underline;
 }
